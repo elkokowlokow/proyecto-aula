@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 col-sm-push-4">
+          <div class="box">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1"> nombre </label>
+                <input type="name" class="form-control" id="exampleInputEmail1" placeholder="" name="nombre">
+                <label for="exampleInputEmail1"> Apellido </label>
+                <input type="name" class="form-control" id="exampleInputEmail1" placeholder="" name="apellido">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">correo electronico</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="itsmemario@gmail.com" name="email">
+              </div>
+              <div class="form-group ">
+                <label class="control-label" for="inputSuccess1">Usuario</label>
+                <input type="text" class="form-control" id="inputSuccess1" aria-describedby="helpBlock2" name="usuario"
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">contraseña</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="123cuatropio" name="contraseña">
+                <label for="exampleInputPassword1">confirmar contraseña</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="xxxxxxxxxxxx" name="conf-contraseña">
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"> acepto los terminos y condiciones
+                </label>
+              </div>
+              <button
+                type="submit"
+                class="btn btn-danger btn-lg active"
+                onclick="enviarRegistro()"
+                >registrarme</button>
+            </form>
+          </div>
+        </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="scripts.js" >
+  </script>
+  </body>
+</html>
